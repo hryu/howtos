@@ -21,3 +21,15 @@
 
 > 참고
 > https://github.com/tianocore/edk2-platforms/blob/master/Readme.md
+
+# Trusted Firmware A
+
+    $ export CROSS_COMPILE=aarch64-linux-gnu-
+    $ make PLAT=fvp all
+    $ make PLAT=fvp BL33=~/uefi/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd fip
+
+**build/fvp/release/fip.bin**
+**build/fvp/release/fdts/**
+> 참고
+> https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/user-guide.rst#building-tf-a
+
