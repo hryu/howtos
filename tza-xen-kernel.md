@@ -17,7 +17,7 @@
     $ export GCC5_AARCH64_PREFIX=aarch64-linux-gnu-
     $ build -a AARCH64 -t GCC5 -p edk2-platforms/Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc
 
-*Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd*
+**Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd**
 
 > 참고
 > https://github.com/tianocore/edk2-platforms/blob/master/Readme.md
@@ -29,7 +29,9 @@
     $ make PLAT=fvp BL33=~/uefi/Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd fip
 
 **build/fvp/release/fip.bin**
+
 **build/fvp/release/fdts/**
+
 > 참고
 > https://github.com/ARM-software/arm-trusted-firmware/blob/master/docs/user-guide.rst#building-tf-a
 
